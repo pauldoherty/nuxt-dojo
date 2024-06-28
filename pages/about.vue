@@ -13,12 +13,12 @@
             odit labore hic dolor dolorem voluptatibus itaque, maxime voluptatum
             temporibus?
         </p>
-        <div>{{ data }}</div>
     </div>
 </template>
 
 <script setup>
 const { data } = await useFetch("/api/currency/GBP");
+// data not used, was just written out to the screen for tutorial purposes.
 </script>
 
 <style scoped>

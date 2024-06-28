@@ -9,11 +9,6 @@
                     <li>
                         <NuxtLink to="/products" class="btn">Products</NuxtLink>
                     </li>
-                    <li>
-                        <NuxtLink to="/products/abc" class="btn"
-                            >Product abc</NuxtLink
-                        >
-                    </li>
                 </ul>
             </nav>
         </header>
